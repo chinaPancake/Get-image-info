@@ -4,7 +4,7 @@ import webcolors
 import os
 from PIL import Image
 import glob
-import time
+
 resp = requests.get('https://jsonplaceholder.typicode.com/photos')
 
     #function to get all image information

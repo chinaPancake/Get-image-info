@@ -1,11 +1,10 @@
-from opcode import opname
 import requests
 import json
 import webcolors
 import os
 from PIL import Image
 import glob
-import time
+
 # open a json file
 resp = open('./friendlysolution/photos.json')
 # load json file as data
